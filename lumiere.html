@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Lumiere</title>
+		<link rel="stylesheet" href ="lumiere.css">
+
+	</head> 
+	
+	<body>
+		<div class="header">
+			<h1> Menu principal </h1>
+			<button onclick="window.location.href = 'temperature.html';" type = "button" class = "bouttons_pages_temp">Température</button>
+			
+			<button onclick="window.location.href = 'lumiere.html';" type = "button" class = "bouttons_pages_lum">Lumière</button>
+
+			<button onclick="window.location.href = 'tableau_de_bord.php';" type = "button" class = "bouttons_pages_tab">Tableau de bord</button>
+		</div>
+
+		<form method="POST" action = "cgi/config.cgi">
+		
+		<br>
+		<div>
+
+			<fieldset>
+				<legend>Lumière</legend>				
+				<h2>Gestion de la Lumière</h2>
+				<table class = "tableau">
+
+					<tr>
+						<td class = "border" colspan="8"></td>
+					</tr>
+					
+					<tr>
+						<td rowspan="7">
+							<img class="cligno" src="images/clignotant.gif" alt="image_cligno">
+						</td>
+						<td class= "td1">Choix du capteur</td>
+						<td>:</td> 
+						<td>
+							<select class = "menu_deroulant" name = "choix_capteur">
+								<option  class = "lum1" value="lum1">lum1</option>
+								<option  class = "lum2" value="lum2">lum2</option>
+								<option  class = "lum3" value="lum3">lum3</option>
+							</select>
+						</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td rowspan="7">
+							<img class="cligno" src="images/clignotant.gif" alt="">
+						</td>
+
+					</tr>
+					
+				
+						<tr>
+							<td class= "td1">Choisir une valeur</td>
+							<td>:</td>
+							<td>
+								<div>
+									<input class = "range_slider" type="range" name="range_lum" min="0" max="100">
+								</div>
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+		
+						</tr>
+					
+					<tr>
+						<td class= "td1">Maison</td>
+						<td>:</td>
+						<td class = "Maison">
+							<input  name = "code_maison"  type="radio" value = "A">A
+							<input  name = "code_maison"  type="radio" value ="B">B
+							<input  name = "code_maison"  type="radio" value = "C">C
+							<input  name = "code_maison"  type="radio" value = "C">D
+						</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						
+					</tr>
+					
+					<tr>
+						<td class= "td1">Mode d'activation</td>
+						<td>:</td>
+						<td class = "checkboxON"><input name = "on_off" type="checkbox">ON</td>
+					
+						
+						
+					</tr>
+					<tr>
+						<td class= "td1">Mot de passe <span class = "etoile_rouge">*</span></td>
+						<td>:</td>
+						<td><input name = "password" class = "champ" type = "password"  value = "mdp"></td>
+						
+						
+					
+					</tr>
+					<tr>
+						<td class= "td1">Envoyer les données</td>
+						<td>:</td>
+						<td colspan="3"><input type = "submit"  class = "btn_green" value = "Soumettre">  </td>
+						
+					
+					</tr>
+					<tr>
+						<td class= "td1">Effacer les données</td>
+						<td>:</td>
+						<td colspan="3"><input type = "reset" class = "btn_red" value = "Réinitialiser">  </td>
+						
+					</tr>
+					<tr>
+						<td class =  "border" colspan="8"></td>
+					</tr>
+					
+					<tr>
+						<td></td>
+						<td colspan="5" class="consigne">* : 4 chiffres numériques au maximum</td></tr>
+				</table>
+					
+			
+				
+				<a class = "Yncrea" href="https://yncrea.fr/">@ Yncréa Ouest (29200)</a>
+			</fieldset>
+		</div>
+		
+
+		</form>
+		<a href="https://www.isen.fr/"><img  class= "logo_isen"  src="images/logo_isen.jpg"  alt="Logo_ISEN"> </a>
+		
+	</body>
+</html>
+
+	
+	

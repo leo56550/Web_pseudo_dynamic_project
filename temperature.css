@@ -1,0 +1,205 @@
+
+body{
+	background-image:url('images/background.png');
+	font-family: Arial, Helvetica, sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bouttons_pages_temp {
+	transition: 0.2s all;
+}
+
+.bouttons_pages_temp:active {
+	transform: scale(0.98);
+	
+	border-color: blue;
+	
+	background-color: yellow;
+}
+
+.bouttons_pages_temp:hover {
+	transform: scale(0.98);
+	
+	border-color: blue;
+	
+	background-color: yellow;
+}
+
+.bouttons_pages_lum {
+	transition: 0.2s all;
+}
+
+.bouttons_pages_lum:active {
+	transform: scale(0.98);
+	
+	border-color: #00ff00;
+
+	background-color: yellow;
+}
+
+.bouttons_pages_lum:hover {
+	transform: scale(0.98);
+	
+	border-color: #00ff00;
+	
+	background-color: yellow;
+}
+
+.bouttons_pages_tab {
+	transition: 0.2s all;
+}
+
+.bouttons_pages_tab:active {
+	transform: scale(0.98);
+	
+	border-color: #ff0000;
+	
+	background-color: yellow;
+}
+
+.bouttons_pages_tab:hover {
+	transform: scale(0.98);
+	
+	border-color: #ff0000;
+	
+	background-color: yellow;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: separate;
+	border-spacing: 6px;
+}
+fieldset{
+	background-color:  #fffacd;
+	opacity: 0.8;
+	margin: 0 auto;
+	height: 500px;
+}
+legend{
+	color: #0000ff;
+	font-weight: bold;
+}
+.header{
+	text-align: center;
+	color: red;
+	font-weight : bold;
+	text-shadow: 2px 2px rgb(107, 102, 102);
+}
+
+h2{
+	text-align: center;
+	color: blue;
+	text-decoration : underline;
+}
+
+
+.btn_green{
+	background-color: #90ee90;
+	border : 4px dashed #000000;
+	width: 100%;
+	font-weight: bold;
+	height : 40px;
+}
+
+.btn_red{
+	background-color: #f49090;
+	border : 4px dashed #000000;
+	width: 100%;
+	font-weight: bold;
+	height : 40px;
+}
+
+.thermo{
+	height : 200px;
+	border : 4px dashed #000000;
+	
+}
+
+
+.consigne{
+	color: red;
+	font-weight: bold;
+}
+
+
+hr{
+	width: 50%;
+	border-width: 4px;
+}
+
+
+.Yncrea{
+	position: relative;
+	padding-left: 80%;
+	margin-right: 0%;
+	font-weight: bold;
+}
+
+.border{
+	border-top: solid;
+	border-color: blue;
+	border-width: 4px;
+}
+
+
+.champ{
+	width : 65%
+}
+
+
+.td1{
+	background-color: #d3d3d3;
+	font-weight: bold;
+}
+
+.temp1{
+	color: red;
+	font-weight: bold;
+	background-color: #ffff00;
+	
+}
+.temp2{
+	color: green;
+	font-weight: bold;
+	background-color: #ffff00;
+}
+.temp3{
+	color: blue;
+	font-weight: bold;
+	background-color: #ffff00;
+}
+
+.menu_deroulant{
+	background-color: transparent
+}
+
+
+.logo_isen{
+	display: block;
+	margin: 0px auto;
+	height : 100px;
+}
+
+
+.champ{
+	color: #000000 ;
+	
+}
+
+
+.temperature{
+	font-weight: bold;
+	
+}
+.checkboxON{
+	font-weight: bold;
+
+}
+
+
+.etoile_rouge{
+	color: red;
+}
